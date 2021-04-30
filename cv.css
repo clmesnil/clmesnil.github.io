@@ -98,6 +98,7 @@ section > div{
 .experience-info{
     display: flex;
     flex-flow: column wrap;
+    padding-bottom: 10px
 }
 .experience-logo{
     flex: 0 0 25%;
