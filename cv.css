@@ -14,15 +14,15 @@ p{
 }
 a{
     text-decoration: none;
-    color: #000;
+    color: #000000;
 }
 
 header{
     width: 100%;
     padding: 20px 0px;
     background: url("assets/logo/fond.jpg") #4f4f4f;
-    box-shadow: 0px 0px 15px #333;
-    border-bottom: 2px solid #fff;
+    box-shadow: 0px 0px 15px #333333;
+    border-bottom: 2px solid #ffffff;
     height: 120px;
 }
 
@@ -32,13 +32,13 @@ section{
     justify-content: center;
     width: 100%;
     padding-bottom: 20px;
-    margin: 20px auto;
-    box-shadow: 0px 0px 10px #bbb;
-    background-color: #fff;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px #bbbbbb;
+    background-color: #ffffff;
 }
 
 section h2{
-    margin: 20px 0;
+    margin: 30px 0;
     width: 90%;
 }
 section > div{
@@ -51,8 +51,8 @@ section > div{
 .photo img{
     width: 150px;
     height: 150px;
-    border: 3px solid #fff;
-    box-shadow: 0px 0px 10px #777;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 10px #777777;
     border-radius: 50%;
     margin-top: -80px;
 }
@@ -185,17 +185,14 @@ section > div{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    box-shadow: 0px 0px 15px #555;
+    box-shadow: 0px 0px 15px #555555;
 }
 
 /* Responsive-desing grand-écran*/
 @media screen and (min-width: 980px){
     section{
         width: 80%;
-        box-shadow: 0px 0px 10px #bbb;
-    }
-    a:hover{
-        color: #EA0;
+        box-shadow: 0px 0px 10px #bbbbbb;
     }
     header h1{
         width: 80%;
@@ -204,13 +201,12 @@ section > div{
         flex: 0 0 45%;
     }
     .presentation{
-        border-bottom: none;
         border-right: 2px solid #ccc;
-        padding-right: 20px;
+        padding-right: 30px;
         margin-left: auto;
     }
     .contact{
-        padding-left: 20px;
+        padding-left: 30px;
         margin-right: auto;
     }
     .presentation a{
@@ -218,9 +214,9 @@ section > div{
     }
     .presentation a:hover{
         color: #282C34;
-        background-color: #fff;
+        background-color: #ffffff;
         border: 2px solid #282C34;
-        box-shadow: 0px 0px 20px #666;
+        box-shadow: 0px 0px 20px grey;
     }
     .experience-logo{
         flex: 0 0 10%;
